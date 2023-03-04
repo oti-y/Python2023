@@ -1,19 +1,66 @@
+# Loops
+
+items = ["Bob", "Ted", "Liu"]
+for index, item in enumerate(items):
+    print(index, item)
+
+# items = [1, 2, 3, 4]
+# for item in items:
+#     print(item)
+
+
+# count = 0
+# while count < 10:
+#     print("The condition is true")
+#     count += 1
+
+# print("After loop")
+
+
+# Nested function
+
+# def count():
+#     count = 0
+
+#     def increment():
+#         nonlocal count
+#         count += 1
+#         print(count)
+
+#     increment()
+
+
+# count()
+
+
+# def talk(phrase):
+#     def say(word):
+#         print(word)
+
+#     words = phrase.split(' ')
+#     for word in words:
+#         say(word)
+
+
+# talk('I am going to buy the milk')
+
+
 # Sets - Unordered, unchangeable, and un-indexed, no duplicates
 
-set1 = {"Roger", "Syd", "Thomas", "Luke"}
+# set1 = {"Roger", "Syd", "Thomas", "Luke"}
 
-set2 = {"Roger"}
+# set2 = {"Roger"}
 
-set3 = {"Thomas"}
+# set3 = {"Thomas"}
 
-intersect = set1 & set2
-print(intersect)  # prints where the 2 sets intersect
+# intersect = set1 & set2
+# print(intersect)  # prints where the 2 sets intersect
 
-mod = set1 | set2
-print(mod)  # prints items in both sets
+# mod = set1 | set2
+# print(mod)  # prints items in both sets
 
-mod2 = set1 - set3
-print(mod2)
+# mod2 = set1 - set3
+# print(mod2)
 
 
 # ------------------------------------------------------------------------------------------
